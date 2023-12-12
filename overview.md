@@ -18,7 +18,7 @@ after some changes in code :
                  props
 Flake              |
    \               v
-+--+---------({size,color})-----------+
++--+---({size,color, top, left})------+
 |                  |                  |
 |          style = {...}              |  loose coupling: obj->styles
 |                  |                  |      v
